@@ -2,6 +2,7 @@ import { Component, HostListener } from '@angular/core';
 import { NzModalService, NzMessageService } from 'ng-zorro-antd';
 
 @Component({
+  // tslint:disable-next-line:component-selector
   selector: 'header-storage',
   template: `
   <i class="anticon anticon-tool"></i>

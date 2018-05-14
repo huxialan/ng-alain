@@ -9,6 +9,7 @@ import { NzMessageService } from 'ng-zorro-antd';
 import { ScrollService, MenuService, SettingsService } from '@delon/theme';
 
 @Component({
+  // tslint:disable-next-line:component-selector
   selector: 'layout-default',
   templateUrl: './default.component.html',
 })

@@ -2,6 +2,7 @@ import { Component, HostListener } from '@angular/core';
 import * as screenfull from 'screenfull';
 
 @Component({
+  // tslint:disable-next-line:component-selector
   selector: 'header-fullscreen',
   template: `
     <i class="anticon anticon-{{status ? 'shrink' : 'arrows-alt'}}"></i>

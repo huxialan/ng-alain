@@ -9,6 +9,7 @@ import {
 } from '@angular/core';
 
 @Component({
+  // tslint:disable-next-line:component-selector
   selector: 'header-search',
   template: `
   <nz-input-group nzAddOnBeforeIcon="anticon anticon-search">

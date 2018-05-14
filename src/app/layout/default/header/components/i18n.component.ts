@@ -8,6 +8,7 @@ import {
 import { I18NService } from '@core/i18n/i18n.service';
 
 @Component({
+  // tslint:disable-next-line:component-selector
   selector: 'header-i18n',
   template: `
   <nz-dropdown>

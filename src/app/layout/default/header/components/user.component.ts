@@ -4,6 +4,7 @@ import { SettingsService } from '@delon/theme';
 import { DA_SERVICE_TOKEN, ITokenService } from '@delon/auth';
 
 @Component({
+  // tslint:disable-next-line:component-selector
   selector: 'header-user',
   template: `
   <nz-dropdown nzPlacement="bottomRight">
@@ -35,7 +36,7 @@ export class HeaderUserComponent implements OnInit {
     const token = this.tokenService.get() || {
       token: 'nothing',
       name: 'Admin',
-      avatar: './assets/img/zorro.svg',
+      avatar: './assets/_/img/zorro.svg',
       email: 'cipchk@qq.com',
     };
     this.tokenService.set(token);

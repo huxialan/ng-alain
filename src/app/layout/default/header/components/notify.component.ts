@@ -7,6 +7,7 @@ import { NoticeItem, NoticeIconList } from '@delon/abc';
  * 菜单通知
  */
 @Component({
+  // tslint:disable-next-line:component-selector
   selector: 'header-notify',
   template: `
   <notice-icon
